@@ -1,9 +1,9 @@
 import './App.css';
-import HomePage from './components/pages/PortfolioPage.js'
+import PortfolioContainer from './components/PortfolioContainer';
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      <PortfolioContainer />
     </div>
   );
 }
