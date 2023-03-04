@@ -2,7 +2,7 @@ import './App.css';
 import PortfolioContainer from './components/PortfolioContainer';
 function App() {
   return (
-    <div className="App">
+    <div class=''>
       <PortfolioContainer />
     </div>
   );

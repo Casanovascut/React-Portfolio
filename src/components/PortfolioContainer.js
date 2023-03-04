@@ -4,7 +4,6 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import AboutMe from './pages/AboutMe';
-import image from '../assets/img';
 
 export default function PortfolioContainer()
 {
@@ -28,12 +27,11 @@ export default function PortfolioContainer()
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <div >
             {/* We are passing the currentPage from state and the function to update it */}
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
             {/* Here we are calling the renderPage method which will return a component  */}
             {renderPage()}
-            <img className='bg'></img>
         </div>
     );
 }
